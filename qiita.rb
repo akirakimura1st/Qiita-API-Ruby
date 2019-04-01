@@ -5,7 +5,7 @@ require "csv"
 
 # 24回繰り返す。
 24.times do
-# tokennの位置作成したqiita tokenを記述してください
+# token 作成したqiita tokenを記述してください
 token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 # URI page1からpage15まで取得する
 uri = URI.parse('https://qiita.com/api/v2/items?page=1&per_page=15')
